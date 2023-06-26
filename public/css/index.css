@@ -19,11 +19,11 @@ h1 {
     color:blue;
 }
 /* 6 */
-section div {
+.box div {
     background:green
 }
 
-section p {
+.box p {
     background: red
 }
 /* 7 */
@@ -69,7 +69,7 @@ button.header-button + span {
     color: white;
 }  
 /* 2.6 */
-div:only-child {
+.only-child-task  div:only-child {
     color: red;
 }
 /* 2.7 */
@@ -121,10 +121,10 @@ div:only-child {
 }
 /* 3.9 */
 .lesson-three-task-nine>h2::first-letter {
-    color: pink;
+    color: red;
 }
 /* 3.10 */
-.lesson-three-task-ten  p::first-line {
+.lesson-three-task-ten>p::first-line {
     background: yellow;
 }
 /* 3.11 */
