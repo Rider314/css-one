@@ -124,7 +124,7 @@ button.header-button + span {
     color: red;
 }
 /* 3.10 */
-.lesson-three-task-ten>p::first-line {
+.lesson-three-task-ten::first-line {
     background: yellow;
 }
 /* 3.11 */
